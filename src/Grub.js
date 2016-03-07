@@ -6,7 +6,8 @@ var Grub = function() {
 
 Grub.prototype.eat = function() {
   var food = this.food;
-  console.log('eatting ' + this.food);
-  this.food = null;
-  return food;
-}
+  console.log(this.food);
+};
+
+var grub = new Grub();
+console.log(grub.food); // jelly
