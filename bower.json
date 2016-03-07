@@ -8,7 +8,6 @@
     "Hack Reactor"
   ],
   "license": "COPYRIGHT",
-  "private": true,
   "ignore": [
     "**/.*",
     "node_modules",
@@ -18,8 +17,9 @@
   ],
   "dependencies": {
     "jquery": "~2.1.0",
-    "underscore": "~1.6.0",
+    "underscore": "^1.8.3",
     "chai": "~1.9.1",
-    "mocha": "~1.18.2"
-  }
+    "mocha": "^2.4.5"
+  },
+  "moduleType": []
 }
